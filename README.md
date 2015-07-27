@@ -1,2 +1,2 @@
 # payment-icons
-A bunch a payment related icon 
+A bunch of payment related icon 
