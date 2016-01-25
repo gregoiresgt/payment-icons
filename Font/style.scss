@@ -1,0 +1,1482 @@
+@import "variables";
+
+@font-face {
+    font-family: 'Credit-Cards-and-Payment';
+    src:    url('fonts/Credit-Cards-and-Payment.eot?ox1iu8');
+    src:    url('fonts/Credit-Cards-and-Payment.eot?ox1iu8#iefix') format('embedded-opentype'),
+        url('fonts/Credit-Cards-and-Payment.ttf?ox1iu8') format('truetype'),
+        url('fonts/Credit-Cards-and-Payment.woff?ox1iu8') format('woff'),
+        url('fonts/Credit-Cards-and-Payment.svg?ox1iu8#Credit-Cards-and-Payment') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'Credit-Cards-and-Payment' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-checkout-card {
+    &:before {
+        content: $icon-checkout-card;
+    }
+}
+.icon-checkout {
+    &:before {
+        content: $icon-checkout;
+    }
+}
+.icon-AliPay-card {
+    &:before {
+        content: $icon-AliPay-card;
+    }
+}
+.icon-AliPay {
+    &:before {
+        content: $icon-AliPay;
+    }
+}
+.icon-Amazon-card {
+    &:before {
+        content: $icon-Amazon-card;
+    }
+}
+.icon-Amazon {
+    &:before {
+        content: $icon-Amazon;
+    }
+}
+.icon-AmericanExpress-card {
+    &:before {
+        content: $icon-AmericanExpress-card;
+    }
+}
+.icon-AmericanExpress {
+    &:before {
+        content: $icon-AmericanExpress;
+    }
+}
+.icon-Apple-card {
+    &:before {
+        content: $icon-Apple-card;
+    }
+}
+.icon-Apple {
+    &:before {
+        content: $icon-Apple;
+    }
+}
+.icon-Bancontact-card .path1 {
+    &:before {
+        content: $icon-Bancontact-card-path1;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-Bancontact-card .path2 {
+    &:before {
+        content: $icon-Bancontact-card-path2;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path3 {
+    &:before {
+        content: $icon-Bancontact-card-path3;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path4 {
+    &:before {
+        content: $icon-Bancontact-card-path4;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path5 {
+    &:before {
+        content: $icon-Bancontact-card-path5;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path6 {
+    &:before {
+        content: $icon-Bancontact-card-path6;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path7 {
+    &:before {
+        content: $icon-Bancontact-card-path7;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path8 {
+    &:before {
+        content: $icon-Bancontact-card-path8;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path9 {
+    &:before {
+        content: $icon-Bancontact-card-path9;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path10 {
+    &:before {
+        content: $icon-Bancontact-card-path10;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path11 {
+    &:before {
+        content: $icon-Bancontact-card-path11;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path12 {
+    &:before {
+        content: $icon-Bancontact-card-path12;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path13 {
+    &:before {
+        content: $icon-Bancontact-card-path13;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path14 {
+    &:before {
+        content: $icon-Bancontact-card-path14;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path15 {
+    &:before {
+        content: $icon-Bancontact-card-path15;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path16 {
+    &:before {
+        content: $icon-Bancontact-card-path16;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path17 {
+    &:before {
+        content: $icon-Bancontact-card-path17;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path18 {
+    &:before {
+        content: $icon-Bancontact-card-path18;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path19 {
+    &:before {
+        content: $icon-Bancontact-card-path19;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path20 {
+    &:before {
+        content: $icon-Bancontact-card-path20;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path21 {
+    &:before {
+        content: $icon-Bancontact-card-path21;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path22 {
+    &:before {
+        content: $icon-Bancontact-card-path22;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path23 {
+    &:before {
+        content: $icon-Bancontact-card-path23;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path24 {
+    &:before {
+        content: $icon-Bancontact-card-path24;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path25 {
+    &:before {
+        content: $icon-Bancontact-card-path25;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path26 {
+    &:before {
+        content: $icon-Bancontact-card-path26;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path27 {
+    &:before {
+        content: $icon-Bancontact-card-path27;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path28 {
+    &:before {
+        content: $icon-Bancontact-card-path28;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact-card .path29 {
+    &:before {
+        content: $icon-Bancontact-card-path29;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Bancontact {
+    &:before {
+        content: $icon-Bancontact;
+    }
+}
+.icon-Bitcoin-card {
+    &:before {
+        content: $icon-Bitcoin-card;
+    }
+}
+.icon-Bitcoin {
+    &:before {
+        content: $icon-Bitcoin;
+    }
+}
+.icon-Bitpay-card {
+    &:before {
+        content: $icon-Bitpay-card;
+    }
+}
+.icon-Bitpay {
+    &:before {
+        content: $icon-Bitpay;
+    }
+}
+.icon-Cirrus-card {
+    &:before {
+        content: $icon-Cirrus-card;
+    }
+}
+.icon-Cirrus {
+    &:before {
+        content: $icon-Cirrus;
+    }
+}
+.icon-Clickandbuy-card {
+    &:before {
+        content: $icon-Clickandbuy-card;
+    }
+}
+.icon-Clickandbuy {
+    &:before {
+        content: $icon-Clickandbuy;
+    }
+}
+.icon-Coinkite-card {
+    &:before {
+        content: $icon-Coinkite-card;
+    }
+}
+.icon-Coinkite {
+    &:before {
+        content: $icon-Coinkite;
+    }
+}
+.icon-DinersClub-card {
+    &:before {
+        content: $icon-DinersClub-card;
+    }
+}
+.icon-DinersClub .path1 {
+    &:before {
+        content: $icon-DinersClub-path1;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path2 {
+    &:before {
+        content: $icon-DinersClub-path2;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path3 {
+    &:before {
+        content: $icon-DinersClub-path3;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path4 {
+    &:before {
+        content: $icon-DinersClub-path4;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path5 {
+    &:before {
+        content: $icon-DinersClub-path5;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path6 {
+    &:before {
+        content: $icon-DinersClub-path6;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path7 {
+    &:before {
+        content: $icon-DinersClub-path7;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path8 {
+    &:before {
+        content: $icon-DinersClub-path8;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path9 {
+    &:before {
+        content: $icon-DinersClub-path9;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path10 {
+    &:before {
+        content: $icon-DinersClub-path10;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path11 {
+    &:before {
+        content: $icon-DinersClub-path11;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path12 {
+    &:before {
+        content: $icon-DinersClub-path12;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path13 {
+    &:before {
+        content: $icon-DinersClub-path13;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path14 {
+    &:before {
+        content: $icon-DinersClub-path14;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path15 {
+    &:before {
+        content: $icon-DinersClub-path15;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path16 {
+    &:before {
+        content: $icon-DinersClub-path16;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path17 {
+    &:before {
+        content: $icon-DinersClub-path17;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path18 {
+    &:before {
+        content: $icon-DinersClub-path18;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path19 {
+    &:before {
+        content: $icon-DinersClub-path19;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path20 {
+    &:before {
+        content: $icon-DinersClub-path20;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path21 {
+    &:before {
+        content: $icon-DinersClub-path21;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path22 {
+    &:before {
+        content: $icon-DinersClub-path22;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path23 {
+    &:before {
+        content: $icon-DinersClub-path23;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path24 {
+    &:before {
+        content: $icon-DinersClub-path24;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path25 {
+    &:before {
+        content: $icon-DinersClub-path25;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path26 {
+    &:before {
+        content: $icon-DinersClub-path26;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path27 {
+    &:before {
+        content: $icon-DinersClub-path27;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path28 {
+    &:before {
+        content: $icon-DinersClub-path28;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path29 {
+    &:before {
+        content: $icon-DinersClub-path29;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path30 {
+    &:before {
+        content: $icon-DinersClub-path30;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path31 {
+    &:before {
+        content: $icon-DinersClub-path31;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path32 {
+    &:before {
+        content: $icon-DinersClub-path32;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path33 {
+    &:before {
+        content: $icon-DinersClub-path33;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path34 {
+    &:before {
+        content: $icon-DinersClub-path34;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path35 {
+    &:before {
+        content: $icon-DinersClub-path35;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path36 {
+    &:before {
+        content: $icon-DinersClub-path36;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path37 {
+    &:before {
+        content: $icon-DinersClub-path37;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DinersClub .path38 {
+    &:before {
+        content: $icon-DinersClub-path38;    
+        margin-left: -1.3916015625em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-DinersClub .path39 {
+    &:before {
+        content: $icon-DinersClub-path39;    
+        margin-left: -1.3916015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-DirectDebit-card {
+    &:before {
+        content: $icon-DirectDebit-card;
+    }
+}
+.icon-DirectDebit {
+    &:before {
+        content: $icon-DirectDebit;
+    }
+}
+.icon-Discover-card {
+    &:before {
+        content: $icon-Discover-card;
+    }
+}
+.icon-Discover {
+    &:before {
+        content: $icon-Discover;
+    }
+}
+.icon-Dwolla-card {
+    &:before {
+        content: $icon-Dwolla-card;
+    }
+}
+.icon-Dwolla {
+    &:before {
+        content: $icon-Dwolla;
+    }
+}
+.icon-Ebay-card {
+    &:before {
+        content: $icon-Ebay-card;
+    }
+}
+.icon-Ebay {
+    &:before {
+        content: $icon-Ebay;
+    }
+}
+.icon-Eway-card {
+    &:before {
+        content: $icon-Eway-card;
+    }
+}
+.icon-Eway {
+    &:before {
+        content: $icon-Eway;
+    }
+}
+.icon-GiroPay-card {
+    &:before {
+        content: $icon-GiroPay-card;
+    }
+}
+.icon-GiroPay .path1 {
+    &:before {
+        content: $icon-GiroPay-path1;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-GiroPay .path2 {
+    &:before {
+        content: $icon-GiroPay-path2;    
+        margin-left: -2.3076171875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-GiroPay .path3 {
+    &:before {
+        content: $icon-GiroPay-path3;    
+        margin-left: -2.3076171875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-GiroPay .path4 {
+    &:before {
+        content: $icon-GiroPay-path4;    
+        margin-left: -2.3076171875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-GiroPay .path5 {
+    &:before {
+        content: $icon-GiroPay-path5;    
+        margin-left: -2.3076171875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-GiroPay .path6 {
+    &:before {
+        content: $icon-GiroPay-path6;    
+        margin-left: -2.3076171875em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-GiroPay .path7 {
+    &:before {
+        content: $icon-GiroPay-path7;    
+        margin-left: -2.3076171875em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-GiroPay .path8 {
+    &:before {
+        content: $icon-GiroPay-path8;    
+        margin-left: -2.3076171875em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-GiroPay .path9 {
+    &:before {
+        content: $icon-GiroPay-path9;    
+        margin-left: -2.3076171875em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-GiroPay .path10 {
+    &:before {
+        content: $icon-GiroPay-path10;    
+        margin-left: -2.3076171875em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-GoogleWallet-card {
+    &:before {
+        content: $icon-GoogleWallet-card;
+    }
+}
+.icon-GoogleWallet {
+    &:before {
+        content: $icon-GoogleWallet;
+    }
+}
+.icon-Ingenico-card {
+    &:before {
+        content: $icon-Ingenico-card;
+    }
+}
+.icon-Ingenico {
+    &:before {
+        content: $icon-Ingenico;
+    }
+}
+.icon-JCB-card {
+    &:before {
+        content: $icon-JCB-card;
+    }
+}
+.icon-JCB {
+    &:before {
+        content: $icon-JCB;
+    }
+}
+.icon-Klarna-card {
+    &:before {
+        content: $icon-Klarna-card;
+    }
+}
+.icon-Klarna {
+    &:before {
+        content: $icon-Klarna;
+    }
+}
+.icon-Laser-card {
+    &:before {
+        content: $icon-Laser-card;
+    }
+}
+.icon-Laser {
+    &:before {
+        content: $icon-Laser;
+    }
+}
+.icon-Maestro-card {
+    &:before {
+        content: $icon-Maestro-card;
+    }
+}
+.icon-Maestro {
+    &:before {
+        content: $icon-Maestro;
+    }
+}
+.icon-MasterCard-card {
+    &:before {
+        content: $icon-MasterCard-card;
+    }
+}
+.icon-MasterCard {
+    &:before {
+        content: $icon-MasterCard;
+    }
+}
+.icon-Monero-card {
+    &:before {
+        content: $icon-Monero-card;
+    }
+}
+.icon-Monero {
+    &:before {
+        content: $icon-Monero;
+    }
+}
+.icon-Neteller-card {
+    &:before {
+        content: $icon-Neteller-card;
+    }
+}
+.icon-Neteller {
+    &:before {
+        content: $icon-Neteller;
+    }
+}
+.icon-Ogone-card .path1 {
+    &:before {
+        content: $icon-Ogone-card-path1;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-Ogone-card .path2 {
+    &:before {
+        content: $icon-Ogone-card-path2;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Ogone-card .path3 {
+    &:before {
+        content: $icon-Ogone-card-path3;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Ogone-card .path4 {
+    &:before {
+        content: $icon-Ogone-card-path4;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Ogone-card .path5 {
+    &:before {
+        content: $icon-Ogone-card-path5;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Ogone-card .path6 {
+    &:before {
+        content: $icon-Ogone-card-path6;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Ogone {
+    &:before {
+        content: $icon-Ogone;
+    }
+}
+.icon-OkPay-card .path1 {
+    &:before {
+        content: $icon-OkPay-card-path1;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-OkPay-card .path2 {
+    &:before {
+        content: $icon-OkPay-card-path2;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-OkPay-card .path3 {
+    &:before {
+        content: $icon-OkPay-card-path3;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-OkPay-card .path4 {
+    &:before {
+        content: $icon-OkPay-card-path4;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-OkPay-card .path5 {
+    &:before {
+        content: $icon-OkPay-card-path5;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-OkPay-card .path6 {
+    &:before {
+        content: $icon-OkPay-card-path6;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-OkPay-card .path7 {
+    &:before {
+        content: $icon-OkPay-card-path7;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-OkPay-card .path8 {
+    &:before {
+        content: $icon-OkPay-card-path8;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-OkPay {
+    &:before {
+        content: $icon-OkPay;
+    }
+}
+.icon-Paybox-card {
+    &:before {
+        content: $icon-Paybox-card;
+    }
+}
+.icon-Paybox {
+    &:before {
+        content: $icon-Paybox;
+    }
+}
+.icon-Paymill-card {
+    &:before {
+        content: $icon-Paymill-card;
+    }
+}
+.icon-Paymill {
+    &:before {
+        content: $icon-Paymill;
+    }
+}
+.icon-Payone-card {
+    &:before {
+        content: $icon-Payone-card;
+    }
+}
+.icon-Payone {
+    &:before {
+        content: $icon-Payone;
+    }
+}
+.icon-Payoneer-card {
+    &:before {
+        content: $icon-Payoneer-card;
+    }
+}
+.icon-Payoneer {
+    &:before {
+        content: $icon-Payoneer;
+    }
+}
+.icon-Paypal-card {
+    &:before {
+        content: $icon-Paypal-card;
+    }
+}
+.icon-Paypal {
+    &:before {
+        content: $icon-Paypal;
+    }
+}
+.icon-PaysafeCard-card {
+    &:before {
+        content: $icon-PaysafeCard-card;
+    }
+}
+.icon-PaysafeCard {
+    &:before {
+        content: $icon-PaysafeCard;
+    }
+}
+.icon-PayU-card {
+    &:before {
+        content: $icon-PayU-card;
+    }
+}
+.icon-PayU {
+    &:before {
+        content: $icon-PayU;
+    }
+}
+.icon-Payza-card {
+    &:before {
+        content: $icon-Payza-card;
+    }
+}
+.icon-Payza {
+    &:before {
+        content: $icon-Payza;
+    }
+}
+.icon-Ripple-card {
+    &:before {
+        content: $icon-Ripple-card;
+    }
+}
+.icon-Ripple {
+    &:before {
+        content: $icon-Ripple;
+    }
+}
+.icon-Sage-card {
+    &:before {
+        content: $icon-Sage-card;
+    }
+}
+.icon-Sage {
+    &:before {
+        content: $icon-Sage;
+    }
+}
+.icon-Sepa-card {
+    &:before {
+        content: $icon-Sepa-card;
+    }
+}
+.icon-Sepa {
+    &:before {
+        content: $icon-Sepa;
+    }
+}
+.icon-Shopify-card {
+    &:before {
+        content: $icon-Shopify-card;
+    }
+}
+.icon-Shopify .path1 {
+    &:before {
+        content: $icon-Shopify-path1;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-Shopify .path2 {
+    &:before {
+        content: $icon-Shopify-path2;    
+        margin-left: -3.4541015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-Shopify .path3 {
+    &:before {
+        content: $icon-Shopify-path3;    
+        margin-left: -3.4541015625em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-Shopify .path4 {
+    &:before {
+        content: $icon-Shopify-path4;    
+        margin-left: -3.4541015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-Shopify .path5 {
+    &:before {
+        content: $icon-Shopify-path5;    
+        margin-left: -3.4541015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-Shopify .path6 {
+    &:before {
+        content: $icon-Shopify-path6;    
+        margin-left: -3.4541015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-Shopify .path7 {
+    &:before {
+        content: $icon-Shopify-path7;    
+        margin-left: -3.4541015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-Shopify .path8 {
+    &:before {
+        content: $icon-Shopify-path8;    
+        margin-left: -3.4541015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-Shopify .path9 {
+    &:before {
+        content: $icon-Shopify-path9;    
+        margin-left: -3.4541015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-Shopify .path10 {
+    &:before {
+        content: $icon-Shopify-path10;    
+        margin-left: -3.4541015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-Shopify .path11 {
+    &:before {
+        content: $icon-Shopify-path11;    
+        margin-left: -3.4541015625em;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-Skrill {
+    &:before {
+        content: $icon-Skrill;
+    }
+}
+.icon-Solo-card {
+    &:before {
+        content: $icon-Solo-card;
+    }
+}
+.icon-Solo {
+    &:before {
+        content: $icon-Solo;
+    }
+}
+.icon-Square-card {
+    &:before {
+        content: $icon-Square-card;
+    }
+}
+.icon-Square {
+    &:before {
+        content: $icon-Square;
+    }
+}
+.icon-Stripe-card {
+    &:before {
+        content: $icon-Stripe-card;
+    }
+}
+.icon-Stripe {
+    &:before {
+        content: $icon-Stripe;
+    }
+}
+.icon-Switch-card {
+    &:before {
+        content: $icon-Switch-card;
+    }
+}
+.icon-Switch {
+    &:before {
+        content: $icon-Switch;
+    }
+}
+.icon-Ukash-card {
+    &:before {
+        content: $icon-Ukash-card;
+    }
+}
+.icon-Ukash {
+    &:before {
+        content: $icon-Ukash;
+    }
+}
+.icon-UnionPay-card {
+    &:before {
+        content: $icon-UnionPay-card;
+    }
+}
+.icon-UnionPay {
+    &:before {
+        content: $icon-UnionPay;
+    }
+}
+.icon-Verifone-card {
+    &:before {
+        content: $icon-Verifone-card;
+    }
+}
+.icon-Verifone {
+    &:before {
+        content: $icon-Verifone;
+    }
+}
+.icon-VeriSign-card .path1 {
+    &:before {
+        content: $icon-VeriSign-card-path1;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-VeriSign-card .path2 {
+    &:before {
+        content: $icon-VeriSign-card-path2;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path3 {
+    &:before {
+        content: $icon-VeriSign-card-path3;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path4 {
+    &:before {
+        content: $icon-VeriSign-card-path4;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path5 {
+    &:before {
+        content: $icon-VeriSign-card-path5;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path6 {
+    &:before {
+        content: $icon-VeriSign-card-path6;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path7 {
+    &:before {
+        content: $icon-VeriSign-card-path7;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path8 {
+    &:before {
+        content: $icon-VeriSign-card-path8;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path9 {
+    &:before {
+        content: $icon-VeriSign-card-path9;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path10 {
+    &:before {
+        content: $icon-VeriSign-card-path10;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path11 {
+    &:before {
+        content: $icon-VeriSign-card-path11;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path12 {
+    &:before {
+        content: $icon-VeriSign-card-path12;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path13 {
+    &:before {
+        content: $icon-VeriSign-card-path13;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path14 {
+    &:before {
+        content: $icon-VeriSign-card-path14;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path15 {
+    &:before {
+        content: $icon-VeriSign-card-path15;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path16 {
+    &:before {
+        content: $icon-VeriSign-card-path16;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path17 {
+    &:before {
+        content: $icon-VeriSign-card-path17;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign-card .path18 {
+    &:before {
+        content: $icon-VeriSign-card-path18;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-VeriSign {
+    &:before {
+        content: $icon-VeriSign;
+    }
+}
+.icon-Visa-card {
+    &:before {
+        content: $icon-Visa-card;
+    }
+}
+.icon-Visa {
+    &:before {
+        content: $icon-Visa;
+    }
+}
+.icon-WebMoney-card {
+    &:before {
+        content: $icon-WebMoney-card;
+    }
+}
+.icon-WebMoney {
+    &:before {
+        content: $icon-WebMoney;
+    }
+}
+.icon-WesternUnion-card .path1 {
+    &:before {
+        content: $icon-WesternUnion-card-path1;    
+        color: rgb(155, 155, 155);
+    }
+}
+.icon-WesternUnion-card .path2 {
+    &:before {
+        content: $icon-WesternUnion-card-path2;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion-card .path3 {
+    &:before {
+        content: $icon-WesternUnion-card-path3;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion-card .path4 {
+    &:before {
+        content: $icon-WesternUnion-card-path4;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion-card .path5 {
+    &:before {
+        content: $icon-WesternUnion-card-path5;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion-card .path6 {
+    &:before {
+        content: $icon-WesternUnion-card-path6;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion-card .path7 {
+    &:before {
+        content: $icon-WesternUnion-card-path7;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion-card .path8 {
+    &:before {
+        content: $icon-WesternUnion-card-path8;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion-card .path9 {
+    &:before {
+        content: $icon-WesternUnion-card-path9;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion-card .path10 {
+    &:before {
+        content: $icon-WesternUnion-card-path10;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion-card .path11 {
+    &:before {
+        content: $icon-WesternUnion-card-path11;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion-card .path12 {
+    &:before {
+        content: $icon-WesternUnion-card-path12;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion-card .path13 {
+    &:before {
+        content: $icon-WesternUnion-card-path13;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion-card .path14 {
+    &:before {
+        content: $icon-WesternUnion-card-path14;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion-card .path15 {
+    &:before {
+        content: $icon-WesternUnion-card-path15;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion-card .path16 {
+    &:before {
+        content: $icon-WesternUnion-card-path16;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion-card .path17 {
+    &:before {
+        content: $icon-WesternUnion-card-path17;    
+        margin-left: -1.6669921875em;    
+        color: rgb(255, 255, 255);
+    }
+}
+.icon-WesternUnion {
+    &:before {
+        content: $icon-WesternUnion;
+    }
+}
+.icon-WorldPay-card {
+    &:before {
+        content: $icon-WorldPay-card;
+    }
+}
+.icon-WorldPay {
+    &:before {
+        content: $icon-WorldPay;
+    }
+}
+
