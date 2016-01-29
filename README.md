@@ -9,13 +9,13 @@ The whole template is built so you easily can extend your ongoing graphical work
 * [Payment](#payments)
 * [Symbol Structure](#symbol-structure)
 * [Shared styles structure](#shared-styles-structure)
-* [What's new](#Whats-new)
+* [What's new](#whats-new)
 * [Future improvements](#future-improvements)
 * [Versioning](#versioning)
 * [Creators](#creators)
 * [Special thanks to](#special-thanks-to)
 * [Copyright and license](#copyright-and-license)
-* [Disclaimer](#Disclaimer)
+* [Disclaimer](#disclaimer)
 
 ## File formats
 Following file formats are included within this template:
@@ -237,11 +237,11 @@ Shared styles/
 0.5
 
 ## Creators
-** Gregoire Segretain **
+**Gregoire Segretain**
 * [Twitter](https://twitter.com/gregoiresgt)
 * [GitHub](https://github.com/gregoiresgt)
 
-** Jonas Bröms **
+**Jonas Bröms**
 * [Twitter](https://twitter.com/jonasbroms)
 * [GitHub](https://github.com/bromso)
 
